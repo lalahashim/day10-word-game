@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>word game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="content">
+        <h1>Word Game</h1>
+        <div class="content">
+            <div class="head-content">
+                <p id="time">Time</p>
+                <p id="score">Score</p>
+                <button id="start" class="btn">Start</button>
+            </div>
+            <div class="body-content">
+                <div class="rules">
+                    <h3>How to play</h3>
+                    <ul>
+                        <li>Click the start button to begin;</li>
+                        <li>Find as many words as you can;</li>
+                        <li>You have only 30 seconds for each word;</li>
+                        <li>If you want to change the word, click the "Next Word" button.</li>
+                    </ul>
+                </div>
+                <div class="game">
+                    <div id="screen" class="screen"></div>
+                    <div class="letter-btns">
+                        <button class="letter screen-btn" data-key="a">a</button>
+                        <button class="letter screen-btn" data-key="b">b</button>
+                        <button class="letter screen-btn" data-key="c">c</button>
+                        <button class="letter screen-btn" data-key="d">d</button>
+                        <button class="letter screen-btn" data-key="e">e</button>
+                        <button class="letter screen-btn" data-key="f">f</button>
+                        <button class="letter screen-btn" data-key="g">g</button>
+                        <button class="letter screen-btn" data-key="h">h</button>
+                        <button class="letter screen-btn" data-key="i">i</button>
+                        <button class="letter screen-btn" data-key="j">j</button>
+                        <button class="letter screen-btn" data-key="k">k</button>
+                        <button class="letter screen-btn" data-key="l">l</button>
+                        <button class="letter screen-btn" data-key="m">m</button>
+                        <button class="letter screen-btn" data-key="n">n</button>
+                        <button class="letter screen-btn" data-key="o">o</button>
+                        <button class="letter screen-btn" data-key="p">p</button>
+                        <button class="letter screen-btn" data-key="q">q</button>
+                        <button class="letter screen-btn" data-key="r">r</button>
+                        <button class="letter screen-btn" data-key="s">s</button>
+                        <button class="letter screen-btn" data-key="t">t</button>
+                        <button class="letter screen-btn" data-key="u">u</button>
+                        <button class="letter screen-btn" data-key="v">v</button>
+                        <button class="letter screen-btn" data-key="w">w</button>
+                        <button class="letter screen-btn" data-key="x">x</button>
+                        <button class="letter screen-btn" data-key="y">y</button>
+                        <div></div>
+                        <div></div>
+                        <button class="letter screen-btn" data-key="z">z</button>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+                <div class="game-buttons">
+                    <button id="next-word" class="game-btn btn">Next Word</button>
+                    <button id="hint" class="game-btn btn">Hint...</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>
